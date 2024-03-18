@@ -20,3 +20,8 @@
   display: flex;
   justify-content: center;
 }
+
+img {
+  border: 2px solid black; /* Applique une bordure de 2 pixels solide noire */
+  padding: 5px; /* Ajoute un espace autour de chaque image */
+}
