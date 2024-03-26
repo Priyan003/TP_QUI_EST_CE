@@ -36,7 +36,10 @@
 
 <form method="post" action="algorithme.php">
   <li>1. A-t-il des lunettes ?
-    <input type="checkbox" name="OUI" id="OUI" name="OUI">  
+    <input type="checkbox" name="OUI" id="OUI" name="OUI">
+    <label for="OUI">OUI</label>
+    <input type="checkbox" name="NON" id="NON" name="NON">
+    <label for="NON">NON</label> 
   </li>
 </form>
 
