@@ -31,13 +31,19 @@
 </div>
  
 
-<div class="questions">
-  <li>1. A-t-il des lunettes ? 
-    <input type="button" value="OUI"/>
-    <input type="button" value="NON"/>
-  </li>
 
-  <li>2. A-t-il une moustache ?
+
+
+<form method="post" action="algorithme.php">
+  <li>1. A-t-il des lunettes ?
+    <button type="submit" name="button" value="OUI">OUI</button>  
+  </li>
+</form>
+
+
+
+
+  <!-- <li>2. A-t-il une moustache ?
     <input type="button" value="OUI"/>
     <input type="button" value="NON"/>
   </li>
@@ -65,14 +71,17 @@
   <li>7. A-t-il un noeud papillon ? 
     <input type="button" value="OUI"/>
     <input type="button" value="NON"/>
-  </li>
+  </li> -->
 
-
-
-
-  
-</div>
   
   
 </body>
 </html>
+
+
+<?php
+
+echo ("button");
+
+
+?>
