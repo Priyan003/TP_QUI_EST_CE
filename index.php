@@ -42,38 +42,6 @@
 
 
 
-
-  <!-- <li>2. A-t-il une moustache ?
-    <input type="button" value="OUI"/>
-    <input type="button" value="NON"/>
-  </li>
-
-  <li>3. A-t-il un chapeau ?
-    <input type="button" value="OUI"/>
-    <input type="button" value="NON"/>
-  </li>
-
-  <li>4. A-t-il des cheveux ? 
-    <input type="button" value="OUI"/>
-    <input type="button" value="NON"/>
-  </li>
-
-  <li>5. A-t-il une boucle d'oreille ? 
-    <input type="button" value="OUI"/>
-    <input type="button" value="NON"/>
-  </li>
-
-  <li>6. A-t-il une barbe ?
-    <input type="button" value="OUI"/>
-    <input type="button" value="NON"/>
-  </li>
-
-  <li>7. A-t-il un noeud papillon ? 
-    <input type="button" value="OUI"/>
-    <input type="button" value="NON"/>
-  </li> -->
-
-  
   
 </body>
 </html>
@@ -81,7 +49,7 @@
 
 <?php
 
-echo ("button");
+echo "OUI: ".$_GET["OUI"];
 
 
 ?>
