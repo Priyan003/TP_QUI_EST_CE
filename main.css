@@ -3,25 +3,20 @@
   margin: 0;
 }
 
+body {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .titre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 50px;
+  
+      }
+
+.column-images img {
+  border: solid black 1px;
 }
 
-
-.column-1,.column-3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.column-2 {
-  display: flex;
-  justify-content: center;
-}
-
-img {
-  border: 2px solid black; /* Applique une bordure de 2 pixels solide noire */
-  padding: 5px; /* Ajoute un espace autour de chaque image */
-}
