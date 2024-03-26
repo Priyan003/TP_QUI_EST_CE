@@ -21,6 +21,7 @@ if ($s1 %2 == 0) {
 
 echo ("s1 = " . $s1);
 
+
 //s2
 $personnage2 = substr($personnage2, 0, 0) . substr($personnage2, 0 + 1);
 $personnage2 = substr($personnage2, 0, 2) . substr($personnage2, 2 + 1);
