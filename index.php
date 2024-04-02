@@ -34,25 +34,40 @@
 
 
 
-<form method="post" action="algorithme.php">
-  <li>1. A-t-il des lunettes ?
-    <input type="checkbox" name="OUI" id="OUI" name="OUI">
-    <label for="OUI">OUI</label>
-    <input type="checkbox" name="NON" id="NON" name="NON">
-    <label for="NON">NON</label> 
-  </li>
+<form>
+  <ol>
+    <li>1. A-t-il des lunettes ?
+      <input type="text" name="lunettes" id="lunettes">
+    </li>
+    <li>2. A-t-il une moustache ?
+      <input type="text" name="moustache" id="moustache">
+    </li>
+    <li>3. A-t-il un chapeau ?
+      <input type="text" name="chapeau" id="chapeau">
+    </li>
+    <li>4. A-t-il des cheveux ?
+      <input type="text" name="cheveux" id="cheveux">
+    </li>
+    <li>5. A-t-il une boucle d'oreille ?
+      <input type="text" name="boucle_oreille" id="boucle_oreille">
+    </li>
+    <li>6. A-t-il une barbe ?
+      <input type="text" name="barbe" id="barbe">
+    </li>
+    <li>7. A-t-il un noeud papillon ?
+      <input type="text" name="noeud_papillon" id="noeud_papillon">
+    </li>
+  </ol>
+  <input type="submit" value="Envoyer">
 </form>
 
+<?php
 
+    echo "Chaîne de résultats : " . $chaine_resultats;
+  ?>
 
   
 </body>
 </html>
 
 
-<?php
-
-echo "OUI: ".$_GET["OUI"];
-
-
-?>

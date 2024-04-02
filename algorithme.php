@@ -1,5 +1,14 @@
 <?php
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $valeur_lunettes = $_POST["lunettes"];
+    $valeur_moustache = $_POST["moustache"];
+    $valeur_chapeau = $_POST["chapeau"];
+    $valeur_cheveux = $_POST["cheveux"];
+    $valeur_boucle_oreille = $_POST["boucle_oreille"];
+    $valeur_barbe = $_POST["barbe"];
+    $valeur_noeud_papillon = $_POST["noeud_papillon"];
+}
 $personnage = $_GET['Var']; 
 $personnage2 = $personnage;
 $personnage3 = $personnage;
